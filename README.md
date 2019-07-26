@@ -9,4 +9,8 @@ To start this streaming as a standalone service we need to start below script in
   
   /opt/confluent_5_3_0/bin/connect-standalone /opt/confluent_5_3_0/bin/etc/schema-registry/connect-avro-standalone.properties /opt/confluent_5_3_0/bin/etc/kafka/connect-file-source.properties /opt/confluent_5_3_0/bin/etc/kafka-connect-hdfs/quickstart-hdfs.properties
   
+  * In above script we no need change any configuration in both connect-standalone and connect-avro-standalone.properties.these     files will have their default configuration while starting the script.
+  
+  * I have uploaded other two files configuration.you can find them for source and target detailed information
+  
   
